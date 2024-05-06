@@ -4,6 +4,7 @@ import './App.css'
 import UseEffectObject from './pages/UseEffectObject.tsx';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Home from './Home.tsx';
+import UseEffectArray from './pages/UseEffectArray.tsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/object" element={<UseEffectObject />} />
+          <Route path="/array" element={<UseEffectArray />} />
         </Routes>
       </div>
     </BrowserRouter>
